@@ -1,5 +1,4 @@
-import React from "react";
-
+import PropTypes from 'prop-types';
 const Greeting = ({greeting}) =>{
     return (
         <div>
@@ -7,5 +6,9 @@ const Greeting = ({greeting}) =>{
         </div>
     )
 }
+
+Greeting.propTypes = {
+    greeting: PropTypes.string.isRequired,
+};
 
 export default Greeting

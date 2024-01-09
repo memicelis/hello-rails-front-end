@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import {useEffect} from 'react'
 import { BrowserRouter,Route,Routes } from 'react-router-dom'
 import Greeting from './components/Greetings'
 import { useDispatch, useSelector } from 'react-redux'
